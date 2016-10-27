@@ -4,6 +4,10 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .hero {
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
               url(../images/hero.jpg) no-repeat center center fixed;
@@ -16,12 +20,17 @@ body {
   justify-content: center;
 }
 
+.hero__content {
+  display: flex;
+  flex-direction: column;
+}
+
 .hero__logo {
   max-width: 25vh;
   margin: 0 auto;
 }
 
-.hero__subtitle {
+.hero__subtitle{
   background-color: #ae3f2c;
   color: #fff;
   margin: 2em auto 0;
