@@ -1,10 +1,11 @@
 body {
+  font-family: 'Roboto', sans-serif;
   overflow: hidden;
   margin: 0;
 }
 
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
               url(../images/hero.jpg) no-repeat center center fixed;
   background-size: cover;
   position: absolute;
@@ -15,8 +16,17 @@ body {
   justify-content: center;
 }
 
-/*.hero__title {
+.hero__logo {
+  max-width: 25vh;
+  margin: 0 auto;
 }
 
 .hero__subtitle {
-}*/
+  background-color: #ae3f2c;
+  color: #fff;
+  margin: 2em auto 0;
+  padding: 0.25em 0.5em;
+  font-size: 2.25vh;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+}
