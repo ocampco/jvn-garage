@@ -4,7 +4,7 @@ body {
   margin: 0 !important;
 }
 
-a {
+a, a:visited {
   text-decoration: none;
 }
 
@@ -31,6 +31,7 @@ a {
 }
 
 .hero__subtitle {
+  color: #4e4e4e;
   background-color: #fff;
   margin: 2em auto 0;
   padding: .5em .75em;
