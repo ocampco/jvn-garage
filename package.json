@@ -1,13 +1,12 @@
 {
   "name": "jvn-garage",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "",
   "engines": {
     "node": "5.9.1"
   },
-  "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "ejs": "2.4.1",
@@ -17,10 +16,5 @@
     "type": "git",
     "url": "https://github.com/ocampco/jvn-garage"
   },
-  "keywords": [
-    "node",
-    "heroku",
-    "express"
-  ],
   "license": "MIT"
 }
