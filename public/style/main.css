@@ -54,12 +54,13 @@ a, a:visited {
 .about {
   display: flex;
   justify-content: center;
-  padding: 2em;
+  padding: 4em 2em;
 }
 
 .about__text {
-  font-size: 1.125em;
-  max-width: 720px;
+  font-size: 1.25em;
+	max-width: 800px;
+	line-height: 2em;
 }
 
 .services {
@@ -67,11 +68,21 @@ a, a:visited {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: .5em;
+  padding: 2em;
+  background-color: #ae3f2c;
+  color: #fff;
 }
 
 .services__title {
   letter-spacing: 0.125em;
+  font-size: 2em;
+}
+
+.services__list {
+  display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  align-items: flex-end;
 }
 
 .service {
@@ -80,12 +91,12 @@ a, a:visited {
   align-items: center;
 }
 
-.service__icon {
-  background-color: #ae3f2c;
-  padding: 2em;
-  border-radius: 50%;
+.service__subtitle {
+  letter-spacing: 0.125em;
 }
 
-.service__description {
+/*.service__description {
   margin-top: 2em;
-}
+  font-size: 1.25em;
+  line-height: 2em;
+}*/
