@@ -6,9 +6,14 @@ body {
 
 a, a:visited {
   text-decoration: none;
+  padding: 5em;
 }
 
 .hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+	align-items: center;
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
               url(../images/hero.jpg) no-repeat center center fixed;
   background-size: cover;
@@ -17,27 +22,24 @@ a, a:visited {
   height: 100%;
 }
 
-.hero__content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 40vh auto 0;
-  max-width: 25vh;
-}
-
 .hero__logo {
-  max-width: 100%;
+  max-width: 25vh;
   margin: 0 auto;
 }
 
 .hero__subtitle {
+  display: flex;
+  justify-content: center;
+}
+
+.hero__subtitle-text {
   color: #4e4e4e;
   background-color: #fff;
-  margin: 2em auto 0;
+  margin-top: 2em;
   padding: .5em .75em;
   font-size: 2vh;
   text-align: center;
-  letter-spacing: 0.25em;
+  letter-spacing: 0.125em;
 }
 
 .hero__fb-icon {
