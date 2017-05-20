@@ -51,6 +51,17 @@ a, a:visited {
   max-width: 1em;
 }
 
+.about {
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+}
+
+.about__text {
+  font-size: 1.125em;
+  max-width: 720px;
+}
+
 .services {
   display: flex;
   flex-direction: column;
