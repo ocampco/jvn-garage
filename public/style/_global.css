@@ -1,0 +1,16 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin: 0 !important;
+  display: flex;
+  flex-direction: column;
+}
+
+a, a:visited {
+  text-decoration: none;
+  padding: 5em;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 300;
+}
