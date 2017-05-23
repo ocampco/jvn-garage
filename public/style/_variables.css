@@ -1,0 +1,10 @@
+:root {
+  /* Colours */
+  --color-orange: #ae3f2c;
+
+  /* Fonts */
+  --title-font: 'Roboto Condensed', sans-serif;
+
+  /* Content */
+  --content-width: 880px;
+}

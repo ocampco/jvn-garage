@@ -1,3 +1,5 @@
+@import '_variables.css';
+
 .about {
   display: flex;
   justify-content: center;
@@ -13,5 +15,5 @@
 .about__text {
   font-size: 1.25em;
 	line-height: 2em;
-  max-width: 880px;
+  max-width: var(--content-width);
 }
