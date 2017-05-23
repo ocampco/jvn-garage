@@ -99,7 +99,7 @@ a, a:visited {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-end;
+  align-items: baseline;
 }
 
 @media (min-width: 414px) {
@@ -110,13 +110,40 @@ a, a:visited {
 
 .service {
   display: flex;
-	flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  margin: 0 1em;
+  flex-basis: 100%;
+  margin: 0 1em 1.5em;
+}
+
+@media (min-width: 414px) {
+  .service {
+    flex-direction: column;
+    flex-basis: 50%;
+    margin: 0 0 1.5em;
+  }
+}
+
+@media (min-width: 768px) {
+  .service {
+    flex-basis: 0;
+  }
+}
+
+.service__img {
+  width: 100px;
+  margin-right: 2em;
+}
+
+@media (min-width: 414px) {
+  .service__img {
+    margin-right: 0;
+  }
 }
 
 .service__subtitle {
   letter-spacing: 0.125em;
+  text-align: center;
 }
 
 /*.service__description {
