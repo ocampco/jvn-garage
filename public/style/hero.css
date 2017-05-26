@@ -1,3 +1,5 @@
+@import '_variables.css';
+
 .hero {
   display: flex;
   justify-content: center;
@@ -9,32 +11,46 @@
 }
 
 .hero__content {
-  align-items: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
+.hero__link {
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .hero__logo {
-  max-width: 25vh;
-  margin: 0 auto;
+  max-width: 30vh;
+  margin-bottom: 2em;
+}
+
+@media (min-width: 415px) {
+  .hero__logo {
+    max-width: 25vh;
+  }
 }
 
 .hero__subtitle {
-  display: flex;
-  justify-content: center;
+  max-width: 200px;
 }
 
 .hero__subtitle-text {
-  color: #4e4e4e;
   background-color: #fff;
-  margin-top: 2em;
   padding: .5em .75em;
-  font-size: 2vh;
-  text-align: center;
+  font-size: 1em;
   letter-spacing: 0.125em;
 }
 
 .hero__fb-icon {
   max-width: 1em;
+}
+
+.hero__fb-count {
+  display: flex !important;
+  justify-content: center;
+  height: 74px;
 }
