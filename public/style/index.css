@@ -1,4 +1,7 @@
 @import '_global.css';
+@import '_variables.css';
 @import 'hero.css';
 @import 'about.css';
 @import 'services.css';
+@import 'map.css';
+@import 'contact.css';

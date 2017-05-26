@@ -1,0 +1,12 @@
+:root {
+  /* Colours */
+  --color-orange: #ae3f2c;
+  --color-grey: #eeeeee;
+  --color-dark-grey: #484848;
+
+  /* Fonts */
+  --title-font: 'Roboto Condensed', sans-serif;
+
+  /* Content */
+  --content-width: 880px;
+}

@@ -1,17 +1,13 @@
+@import '_variables.css';
+
 .about {
   display: flex;
   justify-content: center;
-  padding: 4em 1em;
-}
-
-@media (min-width: 415px) {
-  .about {
-    padding: 4em 4em;
-  }
 }
 
 .about__text {
   font-size: 1.25em;
 	line-height: 2em;
-  max-width: 880px;
+  max-width: var(--content-width);
+  margin: 2.5em 1em;
 }

@@ -1,9 +1,13 @@
+@import '_variables.css';
+
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  font-size: 16px;
   margin: 0 !important;
   display: flex;
   flex-direction: column;
+  color: var(--color-dark-grey);
 }
 
 a, a:visited {
@@ -13,4 +17,5 @@ a, a:visited {
 
 h1, h2, h3, h4, h5 {
   font-weight: 300;
+  margin: 0;
 }

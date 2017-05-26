@@ -1,0 +1,67 @@
+@import '_variables.css';
+
+.contact {
+  background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)),
+  url('../images/workshop.jpg')
+  no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.contact__content {
+  height: 75vh;
+  width: 100%;
+  margin: 2em 1em;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 415px) {
+  .contact__content {
+    height: 50vh;
+    max-width: var(--content-width);
+    justify-content: space-between;
+  }
+}
+
+.contact__title {
+  font-size: 2.5em;
+  font-family: var(--title-font);
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  flex-basis: 50%;
+}
+
+.contact__address {
+  font-size: 1.5em;
+  flex-basis: 50%;
+}
+
+.contact__phone {
+  padding: .75em 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-style: none;
+  color: #ffffff;
+  font-size: 1.5em;
+  font-family: var(--title-font);
+  font-weight: 400;
+  letter-spacing: 0.125em;
+  background-color: var(--color-orange);
+}
+
+@media (min-width: 415px) {
+  .contact__phone {
+    padding: 1em 1.5em;
+    position: relative;
+    max-width: 320px;
+    cursor: pointer;
+    box-shadow: 0 1px 1px 1px rgba(0,0,0,.1);
+  }
+}
