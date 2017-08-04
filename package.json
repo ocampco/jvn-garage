@@ -6,9 +6,9 @@
     "node": "8.1.4"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "node ./src/server.js",
     "lint": "yarn eslint",
-    "eslint": "eslint ."
+    "eslint": "eslint ./src"
   },
   "dependencies": {
     "compression": "^1.6.2",
