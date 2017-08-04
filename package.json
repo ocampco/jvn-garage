@@ -2,6 +2,8 @@
   "name": "jvn-garage",
   "version": "1.0.0",
   "description": "",
+  "license": "MIT",
+  "repository": "https://github.com/ocampco/jvn-garage",
   "engines": {
     "node": "8.1.4"
   },
@@ -15,11 +17,6 @@
     "ejs": "2.5.6",
     "express": "4.15.3"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ocampco/jvn-garage"
-  },
-  "license": "MIT",
   "devDependencies": {
     "eslint": "^4.3.0",
     "eslint-config-airbnb-base": "^11.3.1",
