@@ -6,7 +6,9 @@
     "node": "8.1.4"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "lint": "yarn eslint",
+    "eslint": "eslint ."
   },
   "dependencies": {
     "compression": "^1.6.2",
@@ -17,5 +19,10 @@
     "type": "git",
     "url": "https://github.com/ocampco/jvn-garage"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.3.0",
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-plugin-import": "^2.7.0"
+  }
 }
